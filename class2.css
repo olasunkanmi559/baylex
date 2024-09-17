@@ -1,0 +1,27 @@
+h1{
+    text-align: right;
+    ;text-transform: capitalize;
+    font-weight: 400px;
+}
+h2{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 900px;
+    font-size: 30px;
+}
+h3{
+    font-weight: 300px;
+}
+h4{
+    font-weight: 800px;
+}
+h5{
+    text-align: right;
+    text-transform: capitalize;
+}
