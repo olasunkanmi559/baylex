@@ -1,0 +1,48 @@
+body{
+    background-image: url(james.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+form{
+    background-color:  rgba(248, 247, 247, 0.1);
+    width: 25%;
+    padding: 60px;
+    text-align: center;
+    margin: auto;
+    /* box-shadow: inset 0px 0px 20px white; */
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(253, 251, 251,);
+    border: none;
+    margin: 10px 0px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    color:  rgb(7, 7, 7);
+    /* box-shadow: inset 0px 0px 20px white; */
+}
+input{
+    background-color: transparent;
+    border: none;
+    margin: 10px 0px;
+    width: 100%;
+    outline: none;
+    /* border-radius: 5px; */
+    padding: 15px 10px;
+    box-sizing: border-box;
+    /* box-shadow: inset 0px 0px 20px white; */
+    color:  white;
+    border-bottom: 2px solid white;
+}
+p{
+    color: white;
+}
+label{
+    color: white;
+}
+h1{
+    color: white;
+}
