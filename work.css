@@ -1,5 +1,5 @@
 body{
-    background-image: url(james.jpg);
+    background-image: url(haha.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -9,9 +9,10 @@ form{
     padding: 60px;
     text-align: center;
     margin: auto;
-    /* box-shadow: inset 0px 0px 20px white; */
-    backdrop-filter: blur(3px);
+    box-shadow: inset 0px 0px 2px white;
+    backdrop-filter: blur(5px);
     border-radius: 5px;
+    
 }
 button{
     background-color: rgb(253, 251, 251,);
@@ -35,7 +36,7 @@ input{
     box-sizing: border-box;
     /* box-shadow: inset 0px 0px 20px white; */
     color:  white;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 p{
     color: white;
@@ -44,5 +45,8 @@ label{
     color: white;
 }
 h1{
+    color: white;
+}
+a{
     color: white;
 }
