@@ -1,0 +1,143 @@
+
+.ptag{
+    background: orange;
+    width: 20%;
+    margin-left: 60px;
+}
+.Online{
+    background: purple;
+}
+.li{
+    display: inline-flex;
+    padding: 2px;
+    width: fit-content;
+    flex-direction: row;
+}
+.img{
+    height: 60px;
+    width: 60px;
+}
+.forimg{
+    margin-left: 10px;
+}
+.part2{ 
+    text-align: center;
+}
+.idsession{
+    margin-left: 50px;
+}
+.Welcome{
+    border-left: solid 4px orange;
+    margin-left: 50px;
+}
+.pad{
+    height: 30px;
+    width: 30px;
+}
+.Session{
+    color: red;
+    font-weight: 600;
+}
+.text{
+    padding: 10px;
+}
+.Password{
+    padding: 10px;
+}
+.h2img{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    background: white;
+    width: fit-content; 
+}
+.type{
+    width: fit-content;
+    height: 270px;
+    margin-left: 150px;
+    display: flex;
+}
+.color{
+    background: purple;
+    padding: 2px;
+    width: fit-content;
+    height: 230px;  
+} 
+.but{
+    background: orange;
+    padding: 10px;
+}
+.imgs{
+    height: 100%;
+}
+.label{
+    color: blue;
+}
+.buts{
+    background: orange;
+}
+.sec{
+    text-align: center;
+}
+.note{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-left: 10px;
+    height: fit-content;
+}
+.padd{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    margin-top: 4px;
+}
+.under{
+    display: flex;
+    /* border: solid 1px rgb(104, 100, 100); */
+    justify-content: center;
+    margin: 40px;
+}
+.forp{
+    background: orangered;
+    padding: 10px;
+}
+.h{
+    height: 40px;
+    width: 40px;
+}
+.m{
+    height:40px;
+    width: 40px;
+}
+.t{
+    height:40px;
+    width: 40px;
+}
+.con{
+    color: blue;
+    text-align: center;
+}
+li{
+    color: blue;
+}
+.logs{
+    justify-content: space-between;
+}
+.FB{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+.H5{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.image{
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}

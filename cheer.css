@@ -20,7 +20,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 200px;
 }
 .deal{
     font-family: "Dancing script", cursive;
@@ -42,14 +41,8 @@
     color: orangered;
     text-decoration: underline;
 }
-
 .cart{
     text-align: right;
-}
-.pic{
-    height: 50%;
-    width: 35%;
-    padding-left: 600px;
 }
 .Discover{
     background: orangered;
@@ -57,10 +50,6 @@
     border: none;
     padding: 15px;
     box-shadow: 1px 1px 10px black;
-}
-.forh1{
-    padding-top: 100px;
-    padding-left: 40px;
 }
 .class{
     display: flex;
@@ -102,4 +91,21 @@ ol{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+}
+.imgtext{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.forh1{
+    padding-top: 70px;
+}
+.man{
+    width: 50%;
+    box-sizing: content-box;
+}
+.pic{
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
 }
