@@ -18,10 +18,25 @@
     width: 60px;
 }
 .forimg{
-    margin-left: 10px;
+    width: 250px;
+    height: 250px;
+    padding-left: 10px;
 }
 .part2{ 
     text-align: center;
+}
+.image{
+    position: fixed;
+    width: 10%;
+    bottom: 10px;
+    right: 10px;
+
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .idsession{
     margin-left: 50px;
@@ -54,7 +69,6 @@
 }
 .type{
     width: fit-content;
-    height: 270px;
     margin-left: 150px;
     display: flex;
 }
@@ -62,7 +76,7 @@
     background: purple;
     padding: 2px;
     width: fit-content;
-    height: 230px;  
+    height: 244px;
 } 
 .but{
     background: orange;
@@ -70,6 +84,7 @@
 }
 .imgs{
     height: 100%;
+    width: 100%;
 }
 .label{
     color: blue;
@@ -85,6 +100,7 @@
     padding: 10px;
     margin-left: 10px;
     height: fit-content;
+    height: 67%;
 }
 .padd{
     height: 20px;
@@ -135,9 +151,14 @@ li{
     color: white;
     padding: 20px;
 }
-.image{
-    right: 10px;
-    width: 30px;
-    height: 30px;
-    padding-left: 10px;
+h5{
+    margin: 0px;
+}
+@keyframes change{
+    0%{
+        padding: 10px;
+    }
+    100%{
+        padding: 20px;
+    }
 }

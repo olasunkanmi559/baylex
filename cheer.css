@@ -73,6 +73,13 @@ ol{
     width: 10%;
     bottom: 10px;
     right: 10px;
+
+    animation-name: change;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .part2{
     display: flex;
@@ -108,4 +115,12 @@ ol{
     height: 100%;
     width: 100%;
     padding-left: 100px;
+}
+@keyframes change{
+    0%{
+        padding: 10px;
+    }
+    100%{
+        padding: 20px;
+    }
 }
