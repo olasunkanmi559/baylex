@@ -7,18 +7,24 @@
 .Online{
     background: purple;
 }
+.foronline{
+    margin-top: -20px;
+}
 .li{
     display: inline-flex;
     padding: 2px;
     width: fit-content;
     flex-direction: row;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
 }
 .img{
     height: 60px;
     width: 60px;
 }
 .forimg{
-    width: 250px;
     height: 280px;
     padding-left: 10px;
 }
@@ -65,22 +71,25 @@
 }
 .input{
     background: white;
-    width: fit-content; 
+    width: 100%;
+    height: 80%; 
 }
 .type{
-    width: fit-content;
-    margin-left: 200px;
+    margin: 0px 50px 0px 50px;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .color{
     background: purple;
     padding: 4px;
-    width: fit-content;
+    width: 30%;
     height: 273px;
 } 
 .but{
     background: orange;
-    padding: 10px;
+    padding: 15px;
+    margin: 10px;
 }
 .imgs{
     height: 100%;
@@ -99,9 +108,7 @@
     background-color: antiquewhite;
     padding: 10px;
     margin-left: 10px;
-    height: fit-content;
-    height: 260px;
-    width: 250px;
+    height: 25  0px;
 }
 .padd{
     height: 20px;
@@ -114,13 +121,15 @@
     /* border: solid 1px rgb(104, 100, 100); */
     justify-content: center;
     margin: 40px;
-    width:600px;
     padding-left: 400px;
+}
+.afo{
+    border: 1px solid black;
+    display: flex;
 }
 .forp{
     background: orangered;
     padding: 20px;
-    margin: 10px;
 }
 .h{
     height: 40px;
