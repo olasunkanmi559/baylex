@@ -106,14 +106,6 @@
     text-align: center;
     padding-top: 20px;
 }
-.thdiv{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
 .sdiv{
     text-align: center;
     width: 25%;

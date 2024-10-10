@@ -6,6 +6,7 @@
     <title>Document</title>
 
     <style>
+        
         .div{
             border: 20px groove yellow;
             width: fit-content;
@@ -18,6 +19,19 @@
         }
         .td{
             box-shadow: 1px 1px 10px 1px black;
+        }
+        .bike{
+            margin-left: 50px;
+            width: 300px;
+            height: 250px;
+            border-radius: 100%;
+
+            animation-name: bike;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: forwards;
         }
         ol{
             background-color: rgb(228, 17, 17);
@@ -34,10 +48,16 @@
 
             animation-name: change;
             animation-duration: 2s;
-            animation-timing-function: ease;
+            animation-timing-function: ease-in-out;
             animation-delay: 0s;
             animation-iteration-count: infinite;
             animation-direction: alternate;
+        }
+        .css{
+            list-style: none;
+        }
+        .over{
+            display: flex;
         }
         .part2{
             display: flex;
@@ -51,6 +71,7 @@
             width: fit-content;
             flex-direction: row;
         }
+        
         @keyframes change{
             0%{
                 padding: 10px;
@@ -59,175 +80,187 @@
                 padding: 20px;
             }
         }
+        @keyframes bike{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
     </style>
 
 </head>
 <body>
-
-    <div class="body">
-        <div class="part2">
-            <ol>
-                <li class="li"><a href="job.html">JOB</a> <br> <br></li>
-                <li class="li"><a href="hire me.html">HIRE</a> <br> <br></li> 
-                <li class="li"><a href="index.html">INDEX</a> <br> <br></li>
-                <li class="li"><a href="education details.html">EDUCATION</a> <br> <br></li>
-                <li class="li"><a href="timetable.html">TIMETABLE</a> <br> <br></li>
-                <li class="li"><a href="class.html">FIRST CSS</a> <br> <br></li>
-                <li class="li"><a href="work.html">WORK</a> <br> <br></li>
-                <li class="li"><a href="sunkanmi.html">SUNKANMI</a> <br><br></li>
-                <li class="li"><a href="ludo.html">LUDO</a> <br><br></li>
-                <li class="li"><a href="frame.html">FRAME</a> <br><br></li>
-                <li class="li"><a href="haha.html">NAVIGATION</a> <br><br></li>
-                <li class="li"><a href="cheer.html">CHEER</a> <br> <br> </li>
-                <li class="li"><a href="fcmb.html">FCMB</a><br><br></li>
-                <li class="li"><a href="chess.html">CHESS</a> <br><br></li>
-            </ol> 
+        <div class="body">  
+            <div class="part2">
+                <ol>
+                    <li class="li"><a href="job.html">JOB</a> <br> <br></li>
+                    <li class="li"><a href="hire me.html">HIRE</a> <br> <br></li> 
+                    <li class="li"><a href="index.html">INDEX</a> <br> <br></li>
+                    <li class="li"><a href="education details.html">EDUCATION</a> <br> <br></li>
+                    <li class="li"><a href="timetable.html">TIMETABLE</a> <br> <br></li>
+                    <li class="li"><a href="class.html">FIRST CSS</a> <br> <br></li>
+                    <li class="li"><a href="work.html">WORK</a> <br> <br></li>
+                    <li class="li"><a href="sunkanmi.html">SUNKANMI</a> <br><br></li>
+                    <li class="li"><a href="ludo.html">LUDO</a> <br><br></li>
+                    <li class="li"><a href="frame.html">FRAME</a> <br><br></li>
+                    <li class="li"><a href="haha.html">NAVIGATION</a> <br><br></li>
+                    <li class="li"><a href="cheer.html">CHEER</a> <br> <br> </li>
+                    <li class="li"><a href="fcmb.html">FCMB</a><br><br></li>
+                    <li class="li"><a href="chess.html">CHESS</a> <br><br></li>
+                </ol>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="div">
-        <table border="1" cellpadding="30" cellspacing="1">
-            <div>
-                <tr class="td">
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                    <td class="black"></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                    <td></td>
-                </tr>
-            </div>
-            <div>
-                <tr class="td">
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="black"></td>
-                    <td></td>
-                    <td class="red"></td>
-                </tr>
-            </div>
+    <div class="over"> 
+        <div class="div">
+            <table border="1" cellpadding="30" cellspacing="1">
+                <div>
+                    <tr class="td">
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                        <td class="black"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                        <td></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr class="td">
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="black"></td>
+                        <td></td>
+                        <td class="red"></td>
+                    </tr>
+                </div>
             </table>
+        </div>
+
+        <img src="bike.jpg" alt="banner" class="bike">
+
     </div>
 
     <a href="https://wa.me/message/ELQBBLETJWSFI1"><img class="image" src="was.jpeg"></a>

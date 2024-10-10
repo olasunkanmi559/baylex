@@ -72,20 +72,23 @@ a{
 .input{
     background: white;
     width: 100%;
-    height: 80%; 
+    height: 90%; 
 }
 .type{
     margin: 0px 50px 0px 50px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 }
 .color{
     background: purple;
     padding: 4px;
     width: 30%;
     height: 273px;
+    margin-bottom: 20px;
 } 
+.picss{
+    width: 30%;
+    height: 273px;
+    margin-bottom: 20px;
+}
 .but{
     background: orange;
     padding: 15px;
