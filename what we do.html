@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+
+    <style>
+        .image{
+            position: fixed;
+            width: 5%;
+            bottom: 10px;
+            right: 10px;
+            animation-name: change;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes change{
+           0%{
+               padding: 10px;
+           }
+           100%{
+               padding: 20px;
+           }
+        }
+        .h1{
+            background: rgb(102, 96, 96);
+            color: white;
+            padding: 15px;
+            margin-top: 50px;
+        }
+        .list{
+            color: black;
+        }
+        .man{
+            box-shadow: 0px 0px 10px black;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        img{
+            width: 400px;
+        }
+        .but{
+            border: none;
+            color: white;
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="cheer.html">CHEER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chess.html">CHESS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="class.html">CLASS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="education details.html">EDUCATION FORM</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="fcmb.html">FCMB</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="frame.html">FRAME</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                Dropdown
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="dropdown-item" href="haha.html">HAHA</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="hire me.html">HIRE ME</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="index.html">INDEX</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="job.html">JOB FORM</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="ludo.html">LUDO</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="sunkanmi.html">GLASS FORM</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="work.html">WORK</a>
+            </li>
+            </ul>
+          </li>
+    </ul>
+
+
+    <h1 class="text-center h1">
+        WHAT WE DO
+    </h1>
+
+<ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab">DEVELOPMENT</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab">TRADING</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab">MANAGEMENT</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab">INVESTMENT</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#ola" type="button" role="tab">DOCUMENTATION</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#kaka" type="button" role="tab">TRAINING</button>
+    </li>
+  </ul>
+  
+<div class="tab-content row">
+    <div class="tab-pane active man col-sm" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <img src="dev.webp" alt="banner" class="dev">
+        <div>
+            <strong>Building A Well Lay-Out Environment with Excellent Infrastructures</strong>
+        <P style="padding-top: 20px;">
+            Real Estate is the King of all investments, it possesses tremendous appreciation
+            power and speed for wealth than any other viable investments.
+            Location is the catalyst that makes Real Estate appreciable and profitable.
+            Location is the different interplays between people, 
+            infrastructure and security which makes a piece of earth beautiful and unique.
+            We believe that no slum should exist and that by eradicating slums,
+            we are creating value in the people and places which is our philosophy of wealth.
+            Therefore, we develop Residential, Commercial, Industrial and Agricultural Real Estate.
+        </P>
+        </div>
+    </div>
+
+    <div class="tab-pane man col-sm" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <img src="trad.jpg" alt="banner">
+        <p style="color: greenyellow;">
+            Trading
+        </p>
+        <h3>
+            Best Property Offers in The Markets
+        </h3>
+        <p>
+            We have a list of trusted properties.
+            These properties are well located in prime areas and they have passed our 
+            test of due diligence before we offer them for sale.
+            You can also bring your properties for us to sell for you.
+        </p>
+        <button class="but">
+            VIEW PROPERTIES FOR SALE
+        </button>
+        <p style="padding-top: 15px;">
+            Do you want to know about our trade by barter option?
+        </p>
+        <button class="but">
+            click here
+        </button>
+    </div>
+
+    <div class="tab-pane man col-sm" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
+        <img src="Property-Management-Services-removebg-preview.png" alt="">
+        <h3 style="color: greenyellow;">
+            Management
+        </h3>
+        <h2>
+            Professional Managers and Assets Facilitators That Bring Joy to Property Owners
+        </h2>
+        <p>
+            Property Management is the hallmark of a successful property acquisition.
+            We have a saying “if you cannot maintain it, do not buy it”. 
+            Properties must be maintained to birth and keep birthing prosperity. 
+            comfort and peace of mind for the owner(s). 
+            Property Management (PM) is the second reason why property owners make or lose money. 
+            When properties are well managed, the landlords truly make money while sleeping. 
+            We are seasoned managers who can guide you to make best decisions about asset acquisitions and help you manage it to generate your targeted value(s). 
+            Put your property under us and stay joyous for doing so.
+        </p>
+        <button class="but">
+            click here
+        </button>
+    </div>
+
+    <div class="tab-pane man col-sm" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+        <img src="coin.jpg" alt="">
+        <h3 style="color: greenyellow;">
+            Investment
+        </h3>
+        <h2>
+            Convergence of Scarce Resources to Maximize Profit
+        </h2>
+        <p>
+            Every Real Estate transaction is an investment. 
+            At Green Peace Global Properties and Realty Limited, 
+            we work around the clock to ensure that all is able to participate in Real Estate opportunities. 
+            We understand that real estate investment is not limited to buying and selling, 
+            it includes partnership with credible Real Estate firm to facilitate Real Estate business and rewarded with profit sharing. 
+            Green Peace Properties have designed some win-win partnership scheme that allows people to invest with us 
+            and get both their capital and return at a stipulated time as agreed in the contract of investment.
+        </p>
+        <button class="but">
+            SPEAK WITH US
+        </button>
+    </div>
+    <div class="tab-pane man col-sm" id="ola" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+        <img src="business-process-documentation-steps-qf0nxhm4eb6vq4y02j5jn245vp431rdcgacxbn6w2o.webp" alt="">
+        <h3 style="color: yellowgreen;">
+            Documentation and sponsorship
+        </h3>
+        <h4>
+            We Make Securing Real Estate Land and Titles Documentation Easy
+        </h4>
+        <p>
+            Green Peace Global Properties is a company that values peace of mind and perfect title documentation is away to guarantee such peace. 
+            Title perfection is the process of securing necessary legal and other documents that show absolute ownership and authority over a piece of property and be it building or land. 
+            Aside securing such documents for a perfect title, it is also a valid means to guarantee such peace. 
+            Properties developed by us, we also help individual and group of people like families/ co-peratives, association etc to advise them on the appropriate documents they need to absolutely 
+            secure their properties and set in pace our team of professionals to deliver glitch free documentation with the appropriate authorities. 
+            We also sponsor documentation of land on request after agreement on remuneration. 
+            <strong>INTERESTED?</strong>
+        </p>
+        <button class="but">
+            click here
+        </button>
+    </div>
+    <div class="tab-pane man col-sm" id="kaka" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+        <img src="TRAINING-qf0nxhm4eb6jg6jfgvy2ism5ne1ka86mw7283v9wnc.webp" alt="">
+        <h3 style="color: greenyellow;">
+            Training and Consultancy
+        </h3>
+        <h4>
+            Knowledge Is Power
+        </h4>
+        <p>
+            Power is an enablement to do anything. 
+            Knowledge is an entrance into power. Every man that has knowledge can never be small. 
+            Real Estate is a field wide enough for all players to play. 
+            We believe in sharing our rich Real Estate experiences and knowledge with interested people. 
+            That is one of the ways we know at Green Peace Properties to contribute to Real Estate development and wealth creation through it. 
+            We have structured trainings to teach people Real Estate and how to run a successful Real Estate business. 
+            We are one stop solution house to any Real Estate concern.
+        </p>
+
+        <button class="but">
+            click here
+        </button>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <a href="https://wa.me/message/ELQBBLETJWSFI1"><img class="image" src="was.jpeg"></a>
+</body>
+</html>
